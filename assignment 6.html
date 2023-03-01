@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<script>
+
+document.write("chapter 6 to 9")
+
+document.write("chapter 6")
+console.log("1")
+var a=10;
+var b=9;
+
+var b= ++b;
+console.log(a)
+console.log(b)
+
+console.log("2")
+var a=10;
+        var b=9;
+        var c= ++b;
+        var d= --b;
+        var e= b--;
+        var f= --b;
+console.log(a)
+console.log(b)
+console.log(c)
+console.log(d)
+console.log(e)
+console.log(f)
+
+
+
+
+
+console.log("3")
+var a = 2, b = 1;
+var result = --a - --b + ++b + b--;
+console.log(a)
+console.log(b)
+
+
+
+var tablenum = +prompt("Enter your number of Subjects ");
+document.write('<table border="1">')
+ document.write('<tr><td>Subject</td>');
+    document.write('<td>Total Marks</td>');
+    document.write('<td>Obtained</td>');
+    document.write('<td>Percentage</td></tr>')    
+for (let i = 0; i < tablenum; i++) {
+    var subname = prompt("enter your subject  Name:");
+    var subNum = prompt("enter  obtained Marks " +subname);
+    document.write('<tr><td>'+subname+'</td>');
+    document.write('<td>'+100+'</td>');
+    document.write('<td>'+subNum+'</td>');
+    var per = subNum % 100  +  "%" ;
+    document.write('<td>'+ per +'</td></tr>')
+    
+}
+document.write('</table>')
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
